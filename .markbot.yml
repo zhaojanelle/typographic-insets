@@ -1,0 +1,27 @@
+repo: "typographic-insets"
+canvasCourse: "467502"
+canvasAssignment: "4178304"
+
+naming: true
+commits: 3
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ["figure"]
+      - ["figcaption"]
+      - ["blockquote"]
+    search:
+      - "::first-letter"
+      - "float: left"
+      - "float: right"
+
+screenshots:
+  - path: "index.html"
+    sizes: [1400]
