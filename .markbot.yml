@@ -1,9 +1,14 @@
 repo: "typographic-insets"
-canvasCourse: "467502"
-canvasAssignment: "4178304"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 3
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 3
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"

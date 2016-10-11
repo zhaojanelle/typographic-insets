@@ -1,11 +1,12 @@
-# Typographic insets
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: "Use the CSS float property to add some insets into a piece of text."
+time: "1 hour"
+deliverables: "1 HTML file, 1 CSS file, images"
 ---
 
-**Use the CSS float property to add some insets into a piece of text.**
+# Typographic insets
+
+## Overview
 
 - *Fork this repository.*
 - Style the dropcap to match the screenshot.
@@ -21,7 +22,8 @@
 
 - *Colours:* `#333`, `#666`, `#f2f2f2`
 - *Border thickness:* `3px`
-- *Text sizes:* `5rem`, `1.5rem`
+- *Text sizes:* `5rem`, `1.5rem`, `.875rem`
+- *Paddings:* `.4em .2em`, `6px 0`, `6px`
 - *Image & pull-quote width:* `300px`
 
 ---
