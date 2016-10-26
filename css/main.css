@@ -72,6 +72,48 @@ main > p:first-child::first-line {
   font-style: italic;
 }
 
+main > p:first-child::first-letter {
+  font-style: normal;
+  float: left;
+  background-color: #666;
+  color: #f2f2f2;
+  font-size: 5rem;
+  padding: .2em;
+  margin: 0 1rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  position: absolute;
+  left: 0;
+}
+
+figure {
+  float: right;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+img {
+  margin: .5rem 0;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+  margin-bottom: .5rem;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  font-size: 1.5rem;
+  margin: .5rem 1rem 0 0;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  color: #666;
+  text-align: right;
+}
+
 footer {
   padding: 1.5rem 0;
 
